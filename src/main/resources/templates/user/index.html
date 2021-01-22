@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <link rel="stylesheet" href="/helpyourself/layui/layui-v2.5.6/layui/css/layui.css"/>
+    <title>自救自强</title>
+    <style>
+        /*先写在这里*/
+        .beliefImg{
+            max-height: 60px;
+            max-width: 60px;
+        }
+    </style>
+</head>
+<body class="layui-layout-body">
+<div class="layui-layout layui-layout-admin">
+    <div class="layui-header">
+        <div class="layui-logo">
+            <img src="/helpyourself/img/belief.jpg" class="beliefImg"/>我大哥！
+        </div>
+        <!-- 头部区域（可配合layui已有的水平导航） -->
+        <ul class="layui-nav layui-layout-left">
+            <li class="layui-nav-item"><a href="">生死簿</a></li>
+            <li class="layui-nav-item"><a href="">南天门</a></li>
+            <li class="layui-nav-item"><a href="">诸神</a></li>
+            <li class="layui-nav-item">
+                <a href="javascript:;">六界之外</a>
+                <dl class="layui-nav-child">
+                    <dd><a href="">雾隐门</a></dd>
+                    <dd><a href="">鬼谷</a></dd>
+                    <dd><a href="">荒古书院</a></dd>
+                </dl>
+            </li>
+        </ul>
+        <ul class="layui-nav layui-layout-right">
+            <li class="layui-nav-item">
+                <a href="javascript:;">
+                    <img src="/helpyourself/img/belief.jpg" class="layui-nav-img"/>
+                    大哥
+                </a>
+                <dl class="layui-nav-child">
+                    <dd><a href="">神之信息</a></dd>
+                    <dd><a href="">终极底牌</a></dd>
+                </dl>
+            </li>
+            <li class="layui-nav-item"><a href="">溜了</a></li>
+        </ul>
+    </div>
+
+    <div class="layui-side layui-bg-black">
+        <div class="layui-side-scroll">
+            <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+            <ul class="layui-nav layui-nav-tree"  lay-filter="test">
+                <li class="layui-nav-item layui-nav-itemed">
+                    <a class="" href="javascript:;">清河起源</a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="javascript:;">沉船迷雾</a></dd>
+                        <dd><a href="javascript:;">影流执念</a></dd>
+                        <dd><a href="javascript:;">决心向前</a></dd>
+                        <dd><a href="">变强入口（充值）</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item">
+                    <a href="javascript:;">拜入山门</a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="javascript:;">点苍派</a></dd>
+                        <dd><a href="javascript:;">斜松岭</a></dd>
+                        <dd><a href="">隐藏门派(充值)</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item"><a href="">云世界</a></li>
+                <li class="layui-nav-item"><a href="">六界时髦</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="layui-body">
+        <!-- 内容主体区域 -->
+        <div style="padding: 15px;">无敌天下的第一步计划！（未来还有好多步，加油哦，少年郎！）</div>
+    </div>
+
+    <div class="layui-footer">
+        <!-- 底部固定区域 -->
+        六界咨询(© layui.com - 底部固定区域)
+    </div>
+</div>
+<script src="/helpyourself/layui/layui-v2.5.6/layui/layui.js"></script>
+<script src="/helpyourself/scripts/jquery.min.js"></script>
+<!--<script src="../../static/scripts/test.js"></script>-->
+<script>
+    //JavaScript代码区域
+    layui.use('element', function(){
+        var element = layui.element;
+
+    });
+</script>
+</body>
+</html>
